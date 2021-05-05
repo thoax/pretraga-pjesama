@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretraga pjesama</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:lightslategray;">
+    <main>
+        
+        <header>
+            <h1>Pretraga pjesama</h1>
+        </header>
+
+        <section>
+            <label for="trazi">Upišite početno slovo pjesme:</label>
+            <br>
+            <input type="text" id="trazi" autofocus onfocus="this.value=''">
+            <br>
+            <ul id="spremnik"></ul>
+        </section>
+
+        <div id="nema" style="display: none;">Nema pjesama za traženi pojam.</div>
+
+    </main>
+</body>
+</html>
